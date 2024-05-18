@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: norse;
+    src: url(./norse\ bold\ fornt/Norse-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+#sidebar {
+    position: relative;
+    background-image: url("./photo-for-sign-up-form/golden-gate-bridge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    height: 100vh;
+   
+}
+
+#logo {
+    position: absolute;
+    background-color: rgb(0,0,0,0.4);
+    color: orange;
+    top: 43%;
+    left: 48%;
+    text-align: center;
+    justify-content: center;
+    font-family: norse;
+    font-size: 30px;
+}
+
+#logo > img {
+   width: 100px;
+   top: 50%;
+   left: 50%;
+}
+
+#form {
+    margin: 30px 20px 20px 15px;
+    padding: 20px 20px 20px 15px;
+    width: 60vw;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+#form-text {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 60px;
+}
+
+#real-form {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+
+label {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input {
+    box-shadow: 5px 10px 8px #f1efef;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+input:invalid:required {
+    border-color: red; 
+}
+
+input:invalid {
+    box-shadow: 2px 2px 2px #ee0a0a;
+}
+
+input:invalid::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+input:valid {
+    border-color: #0aee28;
+    box-shadow: 2px 2px 2px #0aee28;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+#btn {
+    font-size: larger;
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    text-align:center;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    display:flex;
+}
+

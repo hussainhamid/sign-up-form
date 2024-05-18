@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="sidebar">
+            <div id="logo">
+                <img src="./photo-for-sign-up-form/odin-lined.png">
+                <h1>odin</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="form">
+
+        <p id="form-text">This is not a real sign up form. this is just a fake form that i have built for the the odin project's sign up form task.</p>
+        <form action="#" method="post" id="real-form">
+            <div id="first-name-div" class="form-grp" class="username">
+                <label for="first-name">*First name: </label>
+                <input id="first-name" name="first-name" required autofocus placeholder="first name" type="text">
+            </div>
+
+            <div id="last-name-div" class="form-grp" class="username">
+                <label for="last-name">*Last name: </label>
+                <input id="last-name" name="last-name" required placeholder="last name" type="text">
+            </div>
+            
+            <div id="email-div" class="form-grp">
+                <label for="email">Email: </label>
+                <input id="email" name="email" placeholder="Email" type="email"> 
+            </div>
+
+            <div id="phn-div" class="form-grp">
+                <label for="phn">Phone number: </label>
+                <input id="phn" name="phn" placeholder="phone number" type="tel">
+            </div>
+
+            <div class="psd-div" class="form-grp" id="psd">
+                <label for="password">*Password: </label>
+                <input id="password" name="password" placeholder="Password" required type="password"> 
+            </div>
+
+            <div class="confirm-psd-div" class="form-grp" id="confirm-psd">
+                <label for="confirm-password">*Confirm password: </label>
+                <input id="confirm-password" name="confirm-password" placeholder="Re-enter" required type="password"> 
+            </div>
+        
+            
+        </form>
+
+        <div id="button-div">
+            <button type="submit" id="btn">Submit</button>
+        </div>
+
+        <div id="log-in">
+            <p>Already have an account? <a href="#">Log in</a></p>    
+        </div>
+</body>
+</html>
